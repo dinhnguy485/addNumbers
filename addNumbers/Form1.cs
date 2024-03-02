@@ -39,7 +39,7 @@ namespace addNumbers
                 else
                 {
                     resetButton.Enabled = true;
-                    sum = (sum + 0) / number;
+                    sum = (sum) / number;
                     outputLabel.Text = $"{sum} is the average ";
                 }
             }
